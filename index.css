@@ -1,3 +1,24 @@
 .container {
     width: auto;
+    display: flex;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(#5039b5 , #555adf);
+}
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color:#7244e7;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
 }
