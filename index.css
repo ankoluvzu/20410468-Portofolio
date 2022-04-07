@@ -23,19 +23,42 @@ a {
     padding: 10px;
 }
 
+footer {
+    width: auto;
+    height: 350px;
+    background-color: #7244e7;
+    flex:2;
+    
+}
+
 .footernav {
     color: aliceblue;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-decoration: none;
+
 }
-footer {
-    width: 1024px;
-    height: 350px;
-    background-color: #7244e7;
-}
+
 
 h1 {
     color: aliceblue;
     text-align: center;
+}
+
+.contactme {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bottomfooter {
+    background-color:#5039b5;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: aliceblue;
 }
