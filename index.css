@@ -23,11 +23,39 @@ a {
     padding: 10px;
 }
 
+main {
+    background-image: url(/images/background.png);
+height: 700px;
+flex: 2;
+}
+
+main h1 {
+    font-size: 30px;
+    color: #5039b5;
+    text-align: center;
+    flex: 2;
+    justify-content: flex-start;
+}
+
+.cards {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cards1 {
+    flex:2;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+
 footer {
     width: auto;
     height: 350px;
     background-color: #7244e7;
     flex:2;
+
     
 }
 
