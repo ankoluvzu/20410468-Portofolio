@@ -12,6 +12,8 @@ body {
 header {
     text-align: center;
     background-image: linear-gradient(#5039b5, #555adf);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 nav {
@@ -46,6 +48,7 @@ main h1 {
 
 .herobanner {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -62,42 +65,44 @@ main h1 {
 
 .secondbanner {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+
 }
 
 .secondbanner1 {
-    flex: 2;
-    padding-right: 5%;
+    flex: 1;
+  
 }
 
 .secondbanner2 {
-    flex: 1;
-    text-align: center;
+    flex: 2;
+   
 }
+
 
 .cards {
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
-    justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
+.myyear {
+    text-align: center;
+}
 .card1 {
     flex: 1;
-
-
 }
 
 .card2 {
     flex: 1;
-
 }
 
 .card3 {
     flex: 1;
-
 }
 
 footer {
