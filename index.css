@@ -1,20 +1,25 @@
+body {
+    width: auto;
+}
+
 .container {
     width: auto;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 400px;
 }
 
 header {
     text-align: center;
-    background-image: linear-gradient(#5039b5 , #555adf);
+    background-image: linear-gradient(#5039b5, #555adf);
 }
 
 nav {
     padding-top: 15px;
     padding-bottom: 10px;
-    background-color:#7244e7;
+    background-color: #7244e7;
     color: aliceblue;
     text-align: center;
-
 }
 
 a {
@@ -25,38 +30,83 @@ a {
 
 main {
     background-image: url(/images/background.png);
-height: 700px;
-flex: 2;
+    min-height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 main h1 {
     font-size: 30px;
     color: #5039b5;
     text-align: center;
+}
+
+.herobanner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.herobanner1 {
     flex: 2;
-    justify-content: flex-start;
+    padding-right: 5%;
+}
+
+.herobanner2 {
+    flex: 1;
+    text-align: center;
+}
+
+
+.secondbanner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondbanner1 {
+    flex: 2;
+    padding-right: 5%;
+}
+
+.secondbanner2 {
+    flex: 1;
+    text-align: center;
 }
 
 .cards {
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.cards1 {
-    flex:2;
     justify-content: space-between;
-    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.card1 {
+    flex: 1;
+
+
+}
+
+.card2 {
+    flex: 1;
+
+}
+
+.card3 {
+    flex: 1;
+
+}
 
 footer {
     width: auto;
     height: 350px;
     background-color: #7244e7;
-    flex:2;
+    flex: 2;
 
-    
+
 }
 
 .footernav {
@@ -81,7 +131,7 @@ h1 {
 }
 
 .bottomfooter {
-    background-color:#5039b5;
+    background-color: #5039b5;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
