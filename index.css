@@ -108,10 +108,9 @@ main h1 {
 footer {
     width: auto;
     height: 350px;
-    background-color: #7244e7;
-    flex: 2;
-
-
+    background-color: #6d6394;
+    flex:2;
+    
 }
 
 .footernav {
@@ -133,6 +132,7 @@ h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
 .bottomfooter {
