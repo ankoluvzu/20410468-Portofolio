@@ -1,5 +1,7 @@
 body {
     width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height: 100%;
 }
 
 .container {
@@ -20,18 +22,19 @@ nav {
     padding-top: 15px;
     padding-bottom: 10px;
     background-color:#6d6394;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 a {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
 }
 
 main {
-    background-image: url(/images/background.png);
+ 
+    background-color: rgb(255, 255, 255);
     min-height: 300px;
     padding-left: 30px;
     padding-right: 30px;
@@ -40,71 +43,18 @@ main {
 }
 
 
+
 main h1 {
     font-size: 30px;
     color: #5039b5;
     text-align: center;
-}
-
-.herobanner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.herobanner1 {
-    flex: 2;
-    padding-right: 5%;
-}
-
-.herobanner2 {
-    flex: 1;
-    text-align: center;
+    width: auto;
 }
 
 
-.secondbanner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
 
 }
-
-.secondbanner1 {
-    flex: 1;
-  
-}
-
-.secondbanner2 {
-    flex: 2;
-   
-}
-
-
-.cards {
-    display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.myyear {
-    text-align: center;
-}
-.card1 {
-    flex: 1;
-}
-
-.card2 {
-    flex: 1;
-}
-
-.card3 {
-    flex: 1;
-}
-
 footer {
     width: auto;
     height: 350px;
