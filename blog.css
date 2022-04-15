@@ -1,7 +1,6 @@
 body {
     width: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-height: 100%;
 }
 
 .container {
@@ -32,17 +31,25 @@ a {
     padding: 10px;
 }
 
-main {
- 
-    background-color: rgb(255, 255, 255);
+body {
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
     min-height: 300px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    justify-content: space-between;
 }
 
 
+.wallpaper {
+    background-image: url(/images/blog.png);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 main h1 {
     font-size: 30px;
@@ -51,15 +58,56 @@ main h1 {
     width: auto;
 }
 
+.blog {
+    width: auto;
+    display: grid;
+    grid-template-columns:33% 33% 33% ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-    
+.blogrow1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+
+.blogrow2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blogrow3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blogrow4 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.blogrow5 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blogrow6 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 footer {
     width: auto;
     height: 350px;
     background-color: #6d6394;
-    flex:2;
+   
     
 }
 
