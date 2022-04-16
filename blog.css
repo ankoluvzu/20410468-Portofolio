@@ -58,16 +58,36 @@ main h1 {
     width: auto;
 }
 
+
 .blog {
     width: auto;
     display: grid;
     grid-template-columns:33% 33% 33% ;
     padding-left: 20px;
     padding-right: 20px;
+    grid-gap: 20px;
+}
+.blog h1 {
+    text-align: center;
+    text-decoration:underline;
+}
+
+.blog p {
+    text-align:left;
+}
+
+.blog h5 {
+    text-align: left;
+    color: #5039b5;
+}
+
+.blog h6 {
+    text-align:right;
+    color: #5039b5;
 }
 
 .blogrow1 {
-    text-align: center;
+    text-align:center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
