@@ -5,6 +5,9 @@ body {
 
 .container {
     width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 header {
@@ -29,13 +32,13 @@ a {
 }
 
 main {
- 
     background-color: rgb(255, 255, 255);
     min-height: 300px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    grid-template-columns: 2;
 }
 
 
@@ -47,75 +50,81 @@ main h1 {
 }
 
 .herobanner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
 }
 
 .herobanner1 {
     flex: 2;
     padding-right: 5%;
-    
+
 }
 
-.herobanner2 {
-    flex: 1;
+*/ .herobanner2 {
     text-align: center;
     border-radius: 50px;
     box-shadow: black 10px;
-    
+
 }
 
 
 .secondbanner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
-.secondbanner1 {
-    flex: 1;
-}
+.secondbanner1 {  text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;}
 
-.secondbanner2 {
-    flex: 2;
-
-}
+.secondbanner2 {  text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;}
 
 
 .cards {
-    display: flex;
+    width: auto;
+    display: grid;
+    grid-template-columns:33% 33% 33% ;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
+
 }
 
 .myyear {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .card1 {
-    flex: 1;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.card2 {
-    flex: 1;
+.card2 { text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.card3 {
-    flex: 1;
+.card3 { text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer {
     width: auto;
     height: 350px;
     background-color: #6d6394;
-    flex: 2;
+
 
 }
 
@@ -139,7 +148,7 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     grid-template-rows: 3;
-    
+
 }
 
 .bottomfooter {
