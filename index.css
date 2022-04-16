@@ -1,6 +1,6 @@
 .container {
     width: auto;
-    display: flex;
+    display: grid;
 }
 
 header {
