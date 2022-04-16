@@ -62,8 +62,10 @@ main h1 {
     width: auto;
     display: grid;
     grid-template-columns:33% 33% 33% ;
+    grid-gap: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    
 }
 
 .blogrow1 {
