@@ -1,0 +1,218 @@
+body {
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 400px;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(#5039b5, #555adf);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #6d6394;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+}
+
+
+.wallpaper {
+    background-image: url(/images/portofolio\ banner.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main h1 {
+    font-size: 30px;
+    color: #5039b5;
+    text-align: center;
+    width: auto;
+}
+
+.portofolio {
+    width: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.portofolio1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.portofolio2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.portofolio3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.portofolio4 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.portofolio5 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.portofolio6 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio7 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio8 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio9 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio10 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio11 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio12 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio13 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio14 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.portofolio15 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio16 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio17 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio18 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio19 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio20 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio21 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    width: auto;
+    height: 350px;
+    background-color: #6d6394;
+
+
+}
+
+.footernav {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+
+}
+
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.contactme {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.bottomfooter {
+    background-color: #5039b5;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: aliceblue;
+}
