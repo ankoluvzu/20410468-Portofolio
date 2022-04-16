@@ -13,14 +13,14 @@ body {
 header {
     text-align: center;
     background-image: linear-gradient(#5039b5, #555adf);
-background-repeat: no-repeat;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
     padding-top: 15px;
     padding-bottom: 10px;
-    background-color:#6d6394;
+    background-color: #6d6394;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -29,11 +29,6 @@ a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
-}
-
-body {
-    width: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -45,7 +40,7 @@ body {
 
 .wallpaper {
     background-image: url(/images/portofolio\ banner.png);
-    height: 350px;
+    height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -61,11 +56,11 @@ main h1 {
 .portofolio {
     width: auto;
     display: grid;
-    grid-template-columns:33% 33% 33% ;
+    grid-template-columns: 33% 33% 33%;
     grid-gap: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    
+
 }
 
 .portofolio1 {
@@ -105,12 +100,88 @@ main h1 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.portofolio7 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio8 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio9 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio10 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio11 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio12 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio13 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio14 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.portofolio15 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio16 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio17 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio18 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio19 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio20 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portofolio21 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 footer {
     width: auto;
     height: 350px;
     background-color: #6d6394;
-   
-    
+
+
 }
 
 .footernav {
@@ -132,7 +203,7 @@ h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
 }
 
 .bottomfooter {
