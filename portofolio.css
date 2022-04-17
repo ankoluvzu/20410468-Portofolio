@@ -24,6 +24,9 @@ nav {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+nav a:hover {
+    color: #cbc2f5;
+}
 
 a {
     color: rgb(255, 255, 255);
