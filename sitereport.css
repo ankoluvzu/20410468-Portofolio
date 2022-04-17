@@ -1,6 +1,7 @@
 body {
     width: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 
 .container {
@@ -31,17 +32,14 @@ a {
     padding: 10px;
 }
 
-body {
-    width: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .container {
     margin-left: auto;
     margin-right: auto;
     min-height: 300px;
 }
-
+.topbanner {
+    text-align: center;
+}
 
 .wallpaper {
     background-image: url(/images/sitereport.png);
@@ -71,15 +69,25 @@ main h1 {
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 5%;
+}
+
+.designtemp {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .validation {
     display: grid;
-    grid-template-columns: 33% 33% 33% ;
+    grid-template-columns: 50% 50%;
     grid-gap: 15px;
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
+}
+.validation h1{
+    text-size-adjust: 20px;
 }
 
 footer {
