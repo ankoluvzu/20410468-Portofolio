@@ -40,7 +40,7 @@ a {
 
 
 .wallpaper {
-    background-image: url(/images/contact\ us.png);
+    background-image: url(/images/contactus.png);
     height:450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,13 +57,21 @@ main h1 {
 .contact {
     width: auto;
     text-align: center;
-    padding-top: 20x;
+    padding-top: 20px;
 }
 
 .social a {
     color: #5039b5;
+    font-weight: bold;
 }
 
+.social a:hover {
+    color: #170e41;
+}
+
+.social :hover img {
+    opacity: 0.5;     
+}
  p {
     text-align: center;
 }
@@ -79,6 +87,7 @@ main h1 {
     background-image: linear-gradient(#b4aae0, #555adf);
     padding-left: 10%;
     padding-right: 10%;
+    
 }
 .contactsection img {
    display: grid;
@@ -92,30 +101,43 @@ form {
     padding-bottom: 20px;
     padding-top: 20px;
     align-items: center;
-    
 }
 
+form h1 {
+    color: #ffffff;
+}
 
 footer {
     width: auto;
     height: 350px;
     background-color: #6d6394;
-
+    display: grid;
 
 }
 
 .footernav {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: none;
-
+    background-image: linear-gradient(#5039b5, #6d6394);
 }
 
+.footernav a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.footernav a:hover {
+    color: #cbc2f5;
+}
 
 h1 {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -123,16 +145,33 @@ h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    grid-template-rows: 33.3% 33.3% 33.3%;
 
+}
+
+.contactme a {
+    color: #ffffff;
+}
+
+.contactme a:hover {
+    color: #cbc2f5;
+}
+
+.contactme img {
+    transition: ease-in;
+}
+
+.contactme :hover img {
+    opacity: 0.5;
 }
 
 .bottomfooter {
-    background-color: #5039b5;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-image: linear-gradient(#6d6394, #5039b5);
 }
 
 h2 {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
