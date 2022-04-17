@@ -5,8 +5,8 @@ body {
 
 .container {
     width: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
 }
 
@@ -18,8 +18,8 @@ header {
 }
 
 nav {
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #6d6394;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -32,21 +32,20 @@ nav a:hover {
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
 }
 
 main {
     background-color: rgb(255, 255, 255);
     min-height: 300px;
     display: grid;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
 }
 
 
 main h1 {
-    font-size: 30px;
     color: #5039b5;
     text-align: center;
     width: auto;
@@ -55,8 +54,8 @@ main h1 {
 .herobanner {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
 
 }
@@ -65,28 +64,28 @@ main h1 {
 .secondbanner {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 
 .secondbanner1 {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .secondbanner2 {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .learned {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .learned :hover img {
@@ -98,11 +97,11 @@ main h1 {
 }
 
 .learned h1 {
-    font-size: 20px;
+    font-size: 5px;
 }
 
 .learned2 h1 {
-    font-size: 20px;
+    font-size: 5px;
 }
 
 .learned2 :hover img {
@@ -116,9 +115,9 @@ main h1 {
 .learned2 {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
 .cards :hover img {
@@ -132,9 +131,9 @@ main h1 {
 .cards {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
     transition: ease-in;
 
 }
@@ -149,27 +148,27 @@ main h1 {
 
 .myyear {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .card1 {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 
 .card2 {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .card3 {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 footer {
@@ -183,8 +182,8 @@ footer {
 .footernav {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-decoration: none;
     background-image: linear-gradient(#5039b5, #6d6394);
 }
@@ -192,8 +191,8 @@ footer {
 .footernav a {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-decoration: none;
 }
 
@@ -208,8 +207,8 @@ h1 {
 
 .contactme {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     grid-template-rows: 33.3% 33.3% 33.3%;
 
 }
@@ -232,8 +231,8 @@ h1 {
 
 .bottomfooter {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-image: linear-gradient(#6d6394, #5039b5);
 }
 
