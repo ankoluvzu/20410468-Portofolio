@@ -1,7 +1,6 @@
 body {
     width: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .container {
@@ -19,22 +18,20 @@ header {
 }
 
 nav {
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #6d6394;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
-nav a:hover {
-    color: #cbc2f5;
-}
 
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
 }
+
 
 .container {
     margin-left: auto;
@@ -42,12 +39,9 @@ a {
     min-height: 300px;
 }
 
-.topbanner {
-    text-align: center;
-}
 
 .wallpaper {
-    background-image: url(/images/sitereport.png);
+    background-image: url(/images/contactus.png);
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,69 +49,77 @@ a {
 }
 
 main h1 {
-    font-size: 30px;
     color: #5039b5;
     text-align: center;
     width: auto;
-
 }
 
-.introduction p {
+.contact {
+    width: auto;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 5px;
 }
 
-.initialdesign {
+.social a {
+    color: #5039b5;
+    font-weight: bold;
+}
+
+
+p {
+    text-align: center;
+}
+
+.contactsection {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-gap: 15px;
+    width: auto;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-}
-
-.designtemp {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.validation {
-    display: grid;
+    grid-gap: 3px;
     grid-template-columns: 50% 50%;
+    text-align: center;
+    padding-bottom: 5px;
+    background-image: linear-gradient(#b4aae0, #555adf);
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.contactsection img {
+    display: grid;
     align-items: center;
+}
+
+form {
+    text-align: center;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 50%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    align-items: center;
+}
+
+form h1 {
+    color: #ffffff;
 }
 
 footer {
-    width: auto;
     height: 350px;
     background-color: #6d6394;
     display: grid;
 
 }
 
-.footernav {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-decoration: none;
-    background-image: linear-gradient(#5039b5, #6d6394);
-}
+
 
 .footernav a {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-decoration: none;
 }
 
-.footernav a:hover {
-    color: #cbc2f5;
-}
 
 h1 {
     color: rgb(255, 255, 255);
@@ -126,8 +128,8 @@ h1 {
 
 .contactme {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     grid-template-rows: 33.3% 33.3% 33.3%;
 
 }
@@ -136,22 +138,10 @@ h1 {
     color: #ffffff;
 }
 
-.contactme a:hover {
-    color: #cbc2f5;
-}
-
-.contactme img {
-    transition: ease-in;
-}
-
-.contactme :hover img {
-    opacity: 0.5;
-}
-
 .bottomfooter {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-image: linear-gradient(#6d6394, #5039b5);
 }
 

@@ -1,11 +1,8 @@
 body {
-    width: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .container {
-    width: auto;
     margin-left: auto;
     margin-right: auto;
     min-height: 400px;
@@ -17,7 +14,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 nav {
     padding-top: 15px;
     padding-bottom: 10px;
@@ -25,99 +21,127 @@ nav {
     color: rgb(255, 255, 255);
     text-align: center;
 }
-
-nav a:hover {
-    color: #cbc2f5;
-}
-
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 10px;
+    padding: 5x;
 }
+
 
 .container {
     margin-left: auto;
     margin-right: auto;
     min-height: 300px;
+    contain: layout;
 }
 
-.topbanner {
-    text-align: center;
-}
 
 .wallpaper {
-    background-image: url(/images/sitereport.png);
-    height: 450px;
+    background-image: url(/images/blog.png);
+    height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 main h1 {
-    font-size: 30px;
     color: #5039b5;
     text-align: center;
-    width: auto;
 
 }
 
-.introduction p {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
 
-.initialdesign {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-gap: 15px;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-}
-
-.designtemp {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.validation {
-    display: grid;
-    grid-template-columns: 50% 50%;
+.blog {
+    display:grid; 
+    padding-left: 5px;
+    padding-right: 5px;
+    grid-gap: 5px;
     align-items: center;
 }
+
+
+.blog h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #5039b5;
+}
+
+.blog p {
+    text-align: left;
+}
+
+.blog h5 {
+    text-align: left;
+    color: #5039b5;
+}
+
+.blog h6 {
+    text-align: right;
+    color: #5039b5;
+}
+
+
+.blogrow1 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: ease-in;
+}
+
+
+.blogrow2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.blogrow3 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.blogrow4 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.blogrow5 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.blogrow6 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
 
 footer {
-    width: auto;
     height: 350px;
     background-color: #6d6394;
     display: grid;
 
 }
 
-.footernav {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-decoration: none;
-    background-image: linear-gradient(#5039b5, #6d6394);
-}
+
 
 .footernav a {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-decoration: none;
 }
 
-.footernav a:hover {
-    color: #cbc2f5;
-}
 
 h1 {
     color: rgb(255, 255, 255);
@@ -126,8 +150,8 @@ h1 {
 
 .contactme {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     grid-template-rows: 33.3% 33.3% 33.3%;
 
 }
@@ -136,22 +160,10 @@ h1 {
     color: #ffffff;
 }
 
-.contactme a:hover {
-    color: #cbc2f5;
-}
-
-.contactme img {
-    transition: ease-in;
-}
-
-.contactme :hover img {
-    opacity: 0.5;
-}
-
 .bottomfooter {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-image: linear-gradient(#6d6394, #5039b5);
 }
 

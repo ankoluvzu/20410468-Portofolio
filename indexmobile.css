@@ -1,14 +1,13 @@
 body {
     width: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .container {
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 header {
@@ -36,58 +35,141 @@ a {
     padding: 10px;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
+main {
+    background-color: rgb(255, 255, 255);
     min-height: 300px;
-}
-
-.topbanner {
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 }
 
-.wallpaper {
-    background-image: url(/images/sitereport.png);
-    height: 450px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 main h1 {
     font-size: 30px;
     color: #5039b5;
     text-align: center;
     width: auto;
-
 }
 
-.introduction p {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.initialdesign {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-gap: 15px;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-}
-
-.designtemp {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.validation {
+.herobanner {
     display: grid;
     grid-template-columns: 50% 50%;
-    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+
+
+.secondbanner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.secondbanner1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.secondbanner2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.learned {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.learned :hover img {
+    opacity: 0.5;
+}
+
+.learned :hover h1 {
+    opacity: 0.5;
+}
+
+.learned h1 {
+    font-size: 20px;
+}
+
+.learned2 h1 {
+    font-size: 20px;
+}
+
+.learned2 :hover img {
+    opacity: 0.5;
+}
+
+.learned2 :hover h1 {
+    opacity: 0.5;
+}
+
+.learned2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.cards :hover img {
+    opacity: 0.5;
+}
+
+.cards :hover h1 {
+    opacity: 0.5;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    transition: ease-in;
+
+}
+
+.cards :hover img {
+    opacity: 0.5;
+}
+
+.cards :hover h1 {
+    opacity: 0.5;
+}
+
+.myyear {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.card2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer {

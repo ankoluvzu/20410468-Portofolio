@@ -24,6 +24,7 @@ nav {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
 nav a:hover {
     color: #cbc2f5;
 }
@@ -44,7 +45,7 @@ a {
 
 .wallpaper {
     background-image: url(/images/contactus.png);
-    height:450px;
+    height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -73,34 +74,37 @@ main h1 {
 }
 
 .social :hover img {
-    opacity: 0.5;     
+    opacity: 0.5;
 }
- p {
+
+p {
     text-align: center;
 }
 
 .contactsection {
     display: grid;
-    width: auto; 
-     align-items: center; 
+    width: auto;
+    align-items: center;
     grid-gap: 10px;
-    grid-template-columns:50% 50%;
+    grid-template-columns: 50% 50%;
     text-align: center;
     padding-bottom: 20px;
     background-image: linear-gradient(#b4aae0, #555adf);
     padding-left: 10%;
     padding-right: 10%;
-    
+
 }
+
 .contactsection img {
-   display: grid;
-   align-items: center;
+    display: grid;
+    align-items: center;
 }
+
 form {
     text-align: center;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns:50% ;
+    grid-template-columns: 50%;
     padding-bottom: 20px;
     padding-top: 20px;
     align-items: center;
