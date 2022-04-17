@@ -67,11 +67,17 @@ main h1 {
     padding-right: 20px;
     grid-gap: 20px;
 }
+
+
 .blog h1 {
     text-align: center;
     text-decoration:underline;
+    color: #5039b5;
 }
 
+.blog h1:hover {
+    color: #6d6394;
+}
 .blog p {
     text-align:left;
 }
@@ -85,18 +91,28 @@ main h1 {
     text-align:right;
     color: #5039b5;
 }
+.blog h6:hover {
+    color: #6d6394;
+}
 
 .blogrow1 {
     text-align:center;
     padding-top: 20px;
     padding-bottom: 20px;
+    transition: ease-in;
 }
-
+.blogrow1 :hover img {
+      opacity: 0.5;     
+    
+}
 
 .blogrow2 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.blogrow2 :hover img {
+    opacity: 0.5;     
 }
 
 .blogrow3 {
@@ -105,23 +121,35 @@ main h1 {
     padding-bottom: 20px;
 }
 
+.blogrow3 :hover img {
+    opacity: 0.5;     
+}
+
 .blogrow4 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.blogrow4 :hover img {
+    opacity: 0.5;     
+}
 
 .blogrow5 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+.blogrow5 :hover img {
+    opacity: 0.5;     
+}
 .blogrow6 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.blogrow3 :hover img {
+    opacity: 0.5;     
 }
 footer {
     width: auto;
