@@ -1,0 +1,124 @@
+body {
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 400px;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(#5039b5, #555adf);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color:#6d6394;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+body {
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+}
+
+
+.wallpaper {
+    background-image: url(/images/sitereport.png);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main h1 {
+    font-size: 30px;
+    color: #5039b5;
+    text-align: center;
+    width: auto;
+    
+}
+.introduction p {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.initialdesign {
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-gap: 15px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.validation {
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-gap: 15px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer {
+    width: auto;
+    height: 350px;
+    background-color: #6d6394;
+   
+    
+}
+
+.footernav {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+
+}
+
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.contactme {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.bottomfooter {
+    background-color: #5039b5;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: aliceblue;
+}
